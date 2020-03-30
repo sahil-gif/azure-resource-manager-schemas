@@ -1277,7 +1277,9 @@
                   { "$ref": "https://schema.management.azure.com/schemas/2019-07-01/Microsoft.Compute.json#/resourceDefinitions/virtualMachineScaleSets_virtualmachines" },
                   { "$ref": "https://schema.management.azure.com/schemas/2019-07-01/Microsoft.Compute.json#/resourceDefinitions/virtualMachineScaleSets_virtualMachines_extensions" },
                   { "$ref": "https://schema.management.azure.com/schemas/2019-07-01/Microsoft.Compute.Extensions.json#/resourceDefinitions/virtualMachines_extensions" },
-                  { "$ref": "https://schema.management.azure.com/schemas/2019-07-01/Microsoft.Compute.Extensions.json#/resourceDefinitions/virtualMachineScaleSets_extensions" }
+                  { "$ref": "https://schema.management.azure.com/schemas/2019-07-01/Microsoft.Compute.Extensions.json#/resourceDefinitions/virtualMachineScaleSets_extensions" },
+                  { "$ref": "https://schema.management.azure.com/schemas/2020-03-01/Microsoft.DeviceUpdate.json#/resourceDefinitions/accounts" },
+                  { "$ref": "https://schema.management.azure.com/schemas/2020-03-01/Microsoft.DeviceUpdate.json#/resourceDefinitions/instances" }
                 ]
               }
             ]
